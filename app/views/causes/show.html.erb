@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @cause.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @cause.description %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @cause.type %>
+</p>
+
+<p>
+  <b>Web link:</b>
+  <%= @cause.web_link %>
+</p>
+
+<p>
+  <b>Facebook link:</b>
+  <%= @cause.facebook_link %>
+</p>
+
+<p>
+  <b>Twitter handle:</b>
+  <%= @cause.twitter_handle %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @cause.state %>
+</p>
+
+<p>
+  <b>Cause:</b>
+  <%= @cause.cause_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_cause_path(@cause) %> |
+<%= link_to 'Back', causes_path %>

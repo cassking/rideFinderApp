@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  type: 
+  web_link: MyString
+  facebook_link: MyString
+  twitter_handle: MyString
+  state: MyString
+  cause_id: 1
+
+two:
+  name: MyString
+  description: MyString
+  type: 
+  web_link: MyString
+  facebook_link: MyString
+  twitter_handle: MyString
+  state: MyString
+  cause_id: 1

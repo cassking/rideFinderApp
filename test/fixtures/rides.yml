@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  total_distance: 9.99
+  difficulty_rating: 1
+  date_range: 2013-06-17 15:41:30
+
+two:
+  name: MyString
+  total_distance: 9.99
+  difficulty_rating: 1
+  date_range: 2013-06-17 15:41:30
