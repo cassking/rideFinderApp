@@ -1,4 +1,7 @@
 RideFinderApp::Application.routes.draw do
+ root :to => 'rides#index'
+
+
   resources :rides
 
 
