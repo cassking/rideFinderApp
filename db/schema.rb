@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130617194130) do
+ActiveRecord::Schema.define(:version => 20130620212352) do
 
   create_table "causes", :force => true do |t|
     t.string   "name"
@@ -37,7 +37,6 @@ ActiveRecord::Schema.define(:version => 20130617194130) do
 
   create_table "states", :force => true do |t|
     t.string   "name"
-    t.integer  "state_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
