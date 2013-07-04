@@ -14,12 +14,11 @@
 <% @rides.each do |ride| %>
   <tr>
     <td><%= ride.name %></td>
-    <td><%= ride.total_distance %></td>
-    <td><%= ride.difficulty_rating %></td>
-    <td><%= ride.date_range %></td>
+    <td><%= ride.total_distance %> Miles</td>
+    <td class="difficulty<%= ride.difficulty_rating %>"><%= ride.difficulty_rating %></td>
+    <td><%= ride.date_range.strftime("%B %d %Y") %></td>
     <td><%= link_to 'Show', ride %></td>
-    <td><%= link_to 'Edit', edit_ride_path(ride) %></td>
-    <td><%= link_to 'Destroy', ride, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
   </tr>
 <% end %>
 </table>

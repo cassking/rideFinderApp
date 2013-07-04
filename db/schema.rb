@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130620213454) do
+ActiveRecord::Schema.define(:version => 20130703233929) do
 
   create_table "causes", :force => true do |t|
     t.string   "name"
@@ -25,6 +25,16 @@ ActiveRecord::Schema.define(:version => 20130620213454) do
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
   end
+
+  create_table "ride_states", :force => true do |t|
+    t.integer  "ride_id"
+    t.integer  "state_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "ride_states", ["ride_id"], :name => "index_ride_states_on_ride_id"
+  add_index "ride_states", ["state_id"], :name => "index_ride_states_on_state_id"
 
   create_table "rides", :force => true do |t|
     t.string   "name"

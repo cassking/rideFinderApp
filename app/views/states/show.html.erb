@@ -1,14 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @state.name %>
-</p>
+<h1><%= @state.name %></h1>
+<ul>
+  <%- @state.rides.each do |ride| %>
+    <li>
+      <%= link_to ride.name, ride %>
+    </li>
+  <%- end %>
+</ul>
 
-<p>
-  <b>State:</b>
-  <%= @state.state_id %>
-</p>
+<h3> Other rides</h3>
+<ul>
+  <%- @rides.each do |ride| %>
+    <li>
+      <%= link_to ride.name, ride_path(ride.id) %> - <%= ride.date_range.strftime("%B %d %Y") %>
+    </li>
+  <%- end %>
+</ul>
 
 
 <%= link_to 'Edit', edit_state_path(@state) %> |

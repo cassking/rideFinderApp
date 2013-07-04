@@ -1,0 +1,2 @@
+module RideStatesHelper
+end

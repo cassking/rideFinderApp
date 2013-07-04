@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Ride:
+  = @ride_state.ride
+%p
+  %b State:
+  = @ride_state.state
+
+= link_to 'Edit', edit_ride_state_path(@ride_state)
+\|
+= link_to 'Back', ride_states_path

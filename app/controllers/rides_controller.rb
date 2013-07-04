@@ -3,7 +3,6 @@ class RidesController < ApplicationController
   # GET /rides.json
   def index
     @rides = Ride.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @rides }
