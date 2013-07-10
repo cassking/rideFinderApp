@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'bootstrap-sass', '2.1'
+gem  'bootswatch-rails'
+
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
