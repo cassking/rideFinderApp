@@ -1,14 +1,25 @@
 RideFinderApp::Application.routes.draw do
- root :to => 'rides#index'
+  get "info/home"
+
+  get "info/about"
+
+  get "info/contact"
 
 
-  resources :rides
+
+ root :to => 'info#home'
+ # match '/signup', to: 'users#new'
+
+  match '/about', to: 'info#about'
+  match '/contact', to: 'info#contact'
+
+  resources :rides, :states, :causes
 
 
-  resources :states
+  # resources :states
 
 
-  resources :causes
+  # resources :causes
 
 
   # The priority is based upon order of creation:
