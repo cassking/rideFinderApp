@@ -12,6 +12,8 @@ RideFinderApp::Application.routes.draw do
 
   match '/about', to: 'info#about'
   match '/contact', to: 'info#contact'
+    match '/help', to: 'info#help'
+
 
   resources :rides, :states, :causes
 
