@@ -2,14 +2,16 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
-gem  'bootswatch-rails'
-
-
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'strong_parameters', :github => "rails/strong_parameters", :branch => "master"
+gem 'thin'
 
+group :development, :test do
+  gem 'sqlite3', '1.3.7'
+  gem 'rspec-rails'
+end
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -25,16 +27,7 @@ group :development do
   gem 'meta_request'
   gem "letter_opener"
 end
-group :development, :test do
-    gem ‘sqlite3′
-end
 
-group :test, :development do
-  gem 'rspec-rails'
-end
-group :production do
-  gem 'pg', '0.12.2'
-end
 
 group :test do
   gem 'faker'
@@ -52,4 +45,8 @@ group :test do
   gem 'acts_as_fu'
   gem "show_me_the_cookies"
   gem 'simplecov', :require => false
+end
+
+group :production do
+  gem 'pg', '0.12.2'
 end
