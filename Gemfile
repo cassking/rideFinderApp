@@ -7,7 +7,6 @@ gem  'bootswatch-rails'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
-gem 'sqlite3'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'strong_parameters', :github => "rails/strong_parameters", :branch => "master"
 
@@ -26,9 +25,15 @@ group :development do
   gem 'meta_request'
   gem "letter_opener"
 end
+group :development, :test do
+    gem ‘sqlite3′
+end
 
 group :test, :development do
   gem 'rspec-rails'
+end
+group :production do
+  gem 'pg', '0.12.2'
 end
 
 group :test do
