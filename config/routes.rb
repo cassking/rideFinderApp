@@ -1,4 +1,6 @@
 RideFinderApp::Application.routes.draw do
+  get "users/new"
+
   get "info/home"
 
   get "info/about"
@@ -8,7 +10,7 @@ RideFinderApp::Application.routes.draw do
 
 
  root :to => 'info#home'
- # match '/signup', to: 'users#new'
+ match '/signup', to: 'users#new'
 
   match '/about', to: 'info#about'
   match '/contact', to: 'info#contact'

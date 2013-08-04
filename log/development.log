@@ -26841,3 +26841,369 @@ Served asset /states.js - 200 OK (1ms)
 
 Started GET "/assets/typeahead.min.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
 Served asset /typeahead.min.js - 200 OK (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-04 17:29:25 -0400
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (39.6ms)
+Compiled twitter_bootstrap.css  (1354ms)  (pid 31901)
+Compiled users.css  (2ms)  (pid 31901)
+Compiled application.css  (1392ms)  (pid 31901)
+  Rendered layouts/_viewport.html.erb (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Compiled users.js  (201ms)  (pid 31901)
+Compiled application.js  (280ms)  (pid 31901)
+Completed 200 OK in 1985ms (Views: 1984.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/causes.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /causes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter_bootstrap.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /twitter_bootstrap.css - 200 OK (47ms)
+
+
+Started GET "/assets/customstyles.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /customstyles.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/info.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /info.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rides.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /rides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/states.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /states.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/causes.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /causes.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/info.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /info.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rides.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /rides.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/states.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /states.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/typeahead.min.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /typeahead.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /application.js - 200 OK (13ms)
+
+
+Started GET "/assets/tdf_cobbles640x427.jpg" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /tdf_cobbles640x427.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-08-04 17:29:27 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (15ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_viewport.html.erb (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 122ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/causes.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /causes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyles.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /customstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /info.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rides.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /rides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/states.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/causes.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /causes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /info.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rides.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /rides.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/states.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/typeahead.min.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /typeahead.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:30 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_viewport.html.erb (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 80ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/causes.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /causes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyles.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /customstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /info.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rides.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /rides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/states.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/causes.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /causes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /info.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rides.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /rides.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/states.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:38 -0400
+Served asset /states.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/typeahead.min.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:39 -0400
+Served asset /typeahead.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:39 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_viewport.html.erb (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 83ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/causes.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /causes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyles.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /customstyles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /info.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rides.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /rides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/states.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/causes.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /causes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /info.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rides.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /rides.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/states.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/typeahead.min.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /typeahead.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-04 17:29:42 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateCauses (20130617192542)
+Migrating to CreateStates (20130617193435)
+Migrating to CreateRides (20130617194130)
+Migrating to RemoveStateIdFromStates (20130620212352)
+Migrating to RemoveCauseIdFromCauses (20130620213454)
+Migrating to CreateUsers (20130804213438)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130804213438')[0m
+  [1m[35m (5.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateCauses (20130617192542)
+Migrating to CreateStates (20130617193435)
+Migrating to CreateRides (20130617194130)
+Migrating to RemoveStateIdFromStates (20130620212352)
+Migrating to RemoveCauseIdFromCauses (20130620213454)
+Migrating to CreateUsers (20130804213438)
+Migrating to AddPasswordDigestToUsers (20130804214637)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "password_digest" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130804214637')[0m
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
