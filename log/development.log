@@ -26758,3 +26758,86 @@ Served asset /typeahead.min.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-24 18:31:30 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-04 16:12:22 -0400
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (37.1ms)
+  Rendered layouts/_viewport.html.erb (0.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 781ms (Views: 780.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/causes.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /causes.css - 200 OK (3ms)
+
+
+Started GET "/assets/customstyles.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /customstyles.css - 200 OK (9ms)
+
+
+Started GET "/assets/info.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /info.css - 200 OK (2ms)
+
+
+Started GET "/assets/rides.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /rides.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /application.css - 200 OK (29ms)
+
+
+Started GET "/assets/states.css?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /states.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/causes.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /causes.js - 200 OK (1ms)
+
+
+Started GET "/assets/info.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:23 -0400
+Served asset /info.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/rides.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /rides.js - 200 OK (2ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /glyphicons-halflings.png - 200 OK (20ms)
+
+
+Started GET "/assets/tdf_cobbles640x427.jpg" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /tdf_cobbles640x427.jpg - 200 OK (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/assets/states.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /states.js - 200 OK (1ms)
+
+
+Started GET "/assets/typeahead.min.js?body=1" for 127.0.0.1 at 2013-08-04 16:12:24 -0400
+Served asset /typeahead.min.js - 200 OK (1ms)
