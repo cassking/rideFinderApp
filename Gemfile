@@ -7,6 +7,7 @@ gem 'jquery-ui-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'strong_parameters', :github => "rails/strong_parameters", :branch => "master"
 gem 'thin'
+gem 'pony', '~> 1.5'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'

@@ -8,7 +8,7 @@ RideFinderApp::Application.routes.draw do
 
   get "info/about"
 
-  get "info/contact"
+  get "inquiries/new"
 
 
 
@@ -18,10 +18,12 @@ RideFinderApp::Application.routes.draw do
   match '/signout', to: 'sessions#destroy', via: :delete
    
   match '/about', to: 'info#about'
-  match '/contact', to: 'info#contact'
+  match '/contact', to: 'inquiries#new'
   match '/help', to: 'info#help'
 
-
+resources :inquiries, :only => [:new, :create] do
+  get 'thank_you', :on => :collection
+end
 
 
 
