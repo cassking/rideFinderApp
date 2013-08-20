@@ -1,4 +1,7 @@
 RideFinderApp::Application.routes.draw do
+  resources :rides, :states, :causes, :users
+  resources :sessions,  only: [:new, :create, :destroy]
+
   get "users/new"
 
   get "info/home"
@@ -9,15 +12,17 @@ RideFinderApp::Application.routes.draw do
 
 
 
- root :to => 'info#home'
- match '/signup', to: 'users#new'
-
+  root :to => 'info#home'
+  match '/signup', to: 'users#new', via: 'get'
+  match '/signin', to: 'sessions#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
+   
   match '/about', to: 'info#about'
   match '/contact', to: 'info#contact'
-    match '/help', to: 'info#help'
+  match '/help', to: 'info#help'
 
 
-  resources :rides, :states, :causes
+
 
 
   # resources :states
