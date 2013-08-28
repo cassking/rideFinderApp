@@ -4,10 +4,11 @@
 <div class="span6"><!-- first column starts -->
 <div class="hero-unit  pull-left">
  <h2>Begin!</h2>
-        <p>Find a ride/post a ride for your charity or cause!</p>
-        <p><a class="btn btn-primary">Explore &raquo;</a></p>
+        <p>Find a ride/post a ride for your <%= link_to "Charity or Cause!", causes_path %></p>
+             <%= link_to "Add a Ride", new_ride_path, class: "btn btn-large btn-info" %>
+       <%= link_to "Find a Ride", rides_path, class: "btn btn-large btn-info" %>
 
- 
+  
  </div>
 </div><!-- first column ends -->
 <div class="row-fluid">
@@ -70,15 +71,16 @@
 <div class="span6">
 	    <h2>Newest Rides</h2>
 <ul>
-<li><i class="icon-ok"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+<li><i class="icon-ok"></i>  How do i get a list of rides by date here?</li>
 <li><i class="icon-ok"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 <li><i class="icon-ok"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 <li><i class="icon-ok"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 <li><i class="icon-ok"></i>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 </ul>
  <div class="btn-group">
-      <button type="submit" class="btn btn-large btn-primary">Add a Ride</button>
-      <button type="submit" class="btn btn-large btn-info">Find a Ride</button>
+      <%= link_to "Add a Ride", new_ride_path, class: "btn btn-large btn-info" %>
+       <%= link_to "Find a Ride", rides_path, class: "btn btn-large btn-info" %>
+      
   </div>
 </div>
 <div class="span6">

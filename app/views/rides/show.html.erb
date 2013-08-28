@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Name:</b>
+  <b>Name of Event:</b>
   <%= @ride.name %>
 </p>
 
 <p>
-  <b>Total distance:</b>
+  <b>Total distance of Event:</b>
   <%= @ride.total_distance %>
 </p>
 
@@ -16,10 +16,16 @@
 </p>
 
 <p>
-  <b>Date range:</b>
+  <b>Date range of Event:</b>
   <%= @ride.date_range %>
 </p>
 
 
 <%= link_to 'Edit', edit_ride_path(@ride) %> |
 <%= link_to 'Back', rides_path %>
+
+
+<div class="field">
+    <%= f.label :ride %><br />
+    <%= f.text_field :ride %>
+</div>

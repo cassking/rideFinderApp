@@ -1,14 +1,11 @@
-<h1>Contact Us</h1>
-
-<div class="row-fluid">
-  <div class="span6"><!-- second column starts -->
+<% provide(:title, "Contact us") %>
+<h1> Contact Us</h1>
 
 
-
-<p>Please fill out the form below and we'll get back to you as soon as possible.</p>
+<div class="row">
+	<div class="span6 offset3">
+		<p>Please fill out the form below and we'll get back to you as soon as possible.</p>
  
 <%= render 'form', :inquiry => @inquiry %>
-
-</div><!-- second column ends -->
+	</div>
 </div>
-</div><!-- first row ends --> 
